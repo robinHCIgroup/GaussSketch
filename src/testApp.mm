@@ -94,7 +94,6 @@ void testApp::update(){
             }
         }
 	}
-    cout<<msg_string<<endl;
     //Fill the data from the parsed OSC packet
     strkIntensity = penVal[0];
     newFieldP.x = penVal[1]+2;
